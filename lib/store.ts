@@ -76,3 +76,4 @@ export const store = {
   getLogs: () => readFile<SendLog[]>('logs.json', []),
   saveLogs: (l: SendLog[]) => writeFile('logs.json', l),
 }
+// mar.  9 juin 2026 21:29:03 CEST
